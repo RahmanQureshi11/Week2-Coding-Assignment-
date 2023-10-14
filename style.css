@@ -1,0 +1,59 @@
+/*This body element will change background color on every page-->*/
+body {
+background-color: lightblue;
+}
+/*This  will target all three elements and change there colors  */
+h1,h2, h3{
+
+    color: navy;
+}
+/* This CSS pseudo Class I created for changing the color for every odd number in a list*/ 
+.every-odd li:nth-child(odd){
+    background-color:peachpuff;
+}
+/*This ID Selector will be for controlling the font size */
+#large-paragraph{
+    font-size: 30px;
+}
+/*This will target the table and put each cell will it's own borders*/
+table{
+border-collapse: collapse;
+width: 100%;
+}
+/*This will separate all the cell with border-bottom with solid black line*/
+th,td{
+padding: 8px;
+text-align: left;
+border-bottom: 1px solid black;
+}
+/*This is CSS Pseudo Class that will change every even number for table row*/
+tr:nth-child(even){
+background-color: orange;
+}
+/*This CSS Pseudo class will change the color when hover over . */
+tr:hover{
+background-color: blue;
+}
+/*This will  change backgroundcolor to green and when filled to color Black.
+ Also  box size created with no border*/
+input[type=text]{
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+box-sizing: border-box;
+border: none;
+background-color:lightgreen;
+color:black;
+}
+/*This chaged the submit button to dark lime green color with a pointer when clicking*/
+input[type=submit]{
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    margin: 8px 0px;
+    cursor: pointer;
+
+}
+

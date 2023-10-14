@@ -1,0 +1,84 @@
+<!--Name: Rahman Qureshi -->
+<!--The requirements for the Week One Assignment Are:-->
+<!-- Website only should be created only using HTML -->
+<!-- It should have 3 Pages that can naviagte from one to the another -->
+<!-- It should Contain 2 Different Size headers -->
+<!-- A list 3 Images A Table , and last but not least A form-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--This will be displayed on the browser tab when Opened.-->
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"> <!--This will be for linking the CSS style Sheet to Html. -->
+
+</head>
+<body>
+    <h1>Home</h1> <!-- This is a Header Tag-->
+<!--This will be the tags where i will use to naviagte throught My 3 Pages which are:
+Index ,About And Contact. -->
+<div>
+    <a href="index.html">Home</a>
+    <a href="about.html" >About</a>
+    <a href="contact.html" >Contact</a>
+</div>
+<!-- This is Image will be displayed on my Home Page-->
+<img height="250px"src="Audi e-tron.jpg" alt="Audi-Etron "> 
+
+ <h3>Best Selling Car Models </h3>
+  <!-- I have created list which created list in Order by a numerical  identifier-->
+  <!--This is for Css class we created to change the color for every odd number in a list -->
+ <ol class="every-odd"> 
+    <li>Audi Q7</li>
+    <li>Audi A8</li>
+    <li>Audi R8 </li>
+ </ol>
+ <!-- Than I went on to create A Table Which has the title and than the data in inside of under it's 
+  corresponding Column. 
+ -->
+ 
+ <table> 
+    <tr>
+        <th> Model  </th>
+        <th> Year </th>
+        <th> Price  </th>  
+    </tr>
+      <tr>
+        <td> Audi Q7</td>
+        <td> 2023</td>
+        <td>$ 60,395</td>
+      </tr>
+      <tr>
+        <td> Audi A8</td>
+        <td>2023 </td>
+        <td>$86,481 </td>
+        </tr>
+        <tr>
+            <td>Audi R8 </td>
+            <td> 2023</td>
+            <td> $158,600</td>
+        </tr>
+</table>
+<br> <br> 
+<!--I also have created A Form,  where User can go Ahead Enter there:
+     1. First Name 
+     2. Last Name 
+     3.Phone Number 
+-->
+   <form>
+     <input type="text" name="FirstName" placeholder="FirstName"> <br>
+     <input type="text" name="LastName" placeholder="LastName"> <br> 
+     <input type="text" name="Phone" placeholder="Phone Number"> <br> <br>
+<!--Additionally I went go ahead made another Form where user can choose  which Car Model they are Interested in -->
+     Audi's Model Availability: <br>
+     <input type="radio" name=" Model Name" value= "Audi Q7">  Audi Q7<br>
+     <input type="radio" name=" Model Name" value="Audi A8"> Audi A8 <br>
+     <input type="radio" name=" Model Name" value="Audi R8"> Audi R8 <br>
+     <input type="submit" value=" Submit">  <!-- This where user can submit their chooses-->
+
+</form>
+</body>
+</html>
